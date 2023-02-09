@@ -1,82 +1,96 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Главная страница</title>
-    <meta name="description" content="KinoBaza on kinoteemaline portaal">
-    <meta name="keywords" content="filmid, filmid võrgus, HD">
+    <meta name="viewport" content="КиноБаза - это портал о кино">
+    <meta name="viewport" content="фильмы, фильмы онлайн, HD">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
 </head>
 <body>
     
-    <div class="main">
 
         <div class="header">
             <div class="logo">
-                <div class="logo.txt">
-                    <h1><a href="index.html">KinoBaza</a></h1>
-                    <h2>Kino on meie kirg!</h2>
+                <div class="logo.txt"> <div class="container-fluid"><div class="row"><div class="col-8">
+                    <h1><a href="index.html">KinoBaza</a></h1></div>
+                    <div class="col-6"><h2>Kino on meie kirg!</h2></div>
                 </div>
-            </div>
-
-            <div class="menubar">
-
-                <ul class="menu">
-                    <li><a href="main.html">Kodu</a></li>
-                    <li><a href="films.html">Filmid</a></li>
-                    <li><a href="#">seeria</a></li>
-                    <li><a href="rating.html">Filmi reiting</a></li>
-                    <li><a href="contact.html">Kontaktid</a></li>
-                </ul>
             </div>
         </div>
-
+            </div>
         
-        <div class="site_content">
-
-            <div class="sidebar_container">
-
-                <div class="sidebar">
-                    <h2>Otsing</h2>
-                    <form method="post" action="#" id="search_form">
-                        <input type="search" name="search_field" placeholder="teie taotlus"/>
-                        <input type="submit" class="btn" value="leida"/>
-                    </form>
-                </div>
-
-                <div class="sidebar">
-                    <h2>Sissepääs</h2>
-                    <form method="post" action="#" id="login">
-
-                        <input type="text" name="login_field" placeholder="Logi sisse"/>
-                        <input type="password" name="password_field" placeholder="parool"/>
-                        <input type="submit" class="btn" value="sisend"/>
-                        <div class="lables_passreg_text">
-                            <span><a href="#">Unustasid parooli?</a></span> | <span><a href="#">registreerimine</a></span>
-                        </div>
-
-                    </form>
-                </div>
-
-                <div class="sidebar">
-                    <h2>Uudised</h2>
-                    <span>31.02.2018</span>
-                    <p>Käivitasime täpsema otsingu</p>
-                    <a href="#">lugeda</a>
-                </div>
-
-                <div class="sidebar">
-                    <h2>Filmi reiting</h2>
-                    <ul>
-                        <li><a href="rating.html">tähtedevaheline</a><span class="rating_sidevar">8.1</span></li>
-                        <li><a href="bek.html">Maatriks</a><span class="rating_sidebar">8.0</span></li>
-                        <li><a href="madmax.html">Hull Maxim</a><span class="rating_sidebar">7.5</span></li>
-                        <li><a href="atl.html">Pilveatlas</a><span class="rating_sidebar">7.4</span></li>
+            <div class="menubar">
+                
+                <div class="main">               
+               
+                    <ul class="menu">
+                     <div class="container-fluid">
+                        <div class="row">
+                        <div class="col-lg-2"><li><a href="docktype.html">Kodu</a></li></div>
+                        <div class="col-lg-2"><li><a href="films.html">filmid</a></li></div>
+                        <div class="col-lg-2"><li><a href="seria.html">seeria</a></li></div>
+                        <div class="col-lg-3"><li><a href="rating.html">Filmi reiting</a></li></div>
+                        <div class="col-lg-2"><li><a href="contact.html">Kontaktid</a></li></div>
+                    </div>
+                    </div>
                     </ul>
-                </div>
-
+                
             </div>
 
+        </div>
+        
+        
+    </div>
+
+    <div class="site_content">
+
+        <div class="sidebar_container">
+
+            <div class="sidebar">
+                <h2>Otsing</h2>
+                <form method="post" action="#" id="search_form">
+                    <input type="search" name="search_field" placeholder="teie taotlus"/>
+                    <input type="submit" class="btn" value="leida"/>
+                </form>
+            </div>
+
+            <div class="sidebar">
+                <h2>Sissepääs</h2>
+                <form method="post" action="#" id="login">
+
+                    <input type="text" name="login_field" placeholder="Logi sisse"/>
+                    <input type="password" name="password_field" placeholder="parool"/>
+                    <input type="submit" class="btn" value="sisend"/>
+                    <div class="lables_passreg_text">
+                        <span><a href="#">Unustasid parooli?</a></span> | <span><a href="#">registreerimine</a></span>
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="sidebar">
+                <h2>Uudised</h2>
+                <span>31.02.2018</span>
+                <p>Käivitasime täpsema otsingu</p>
+                <a href="#">lugeda</a>
+            </div>
+
+            <div class="sidebar">
+                <h2>Filmi reiting</h2>
+                <ul>
+                    <li><a href="rating.html">tähtedevaheline</a><span class="rating_sidevar">8.1</span></li>
+                    <li><a href="bek.html">Maatriks</a><span class="rating_sidebar">8.0</span></li>
+                    <li><a href="madmax.html">Hull Maxim</a><span class="rating_sidebar">7.5</span></li>
+                    <li><a href="atl.html">Pilveatlas</a><span class="rating_sidebar">7.4</span></li>
+                </ul>
+            </div>
+
+        </div>
             <div class="content">
 
                 <h1>Halvale teele</h1>
@@ -88,14 +102,18 @@
                 </div>
                 <hr>
                 <h2>Halvale teele kirjeldus</h2>
-                <div class="decriptions_film">
+                <div class="decriptions_film"><div class="row">
+                    <div class="col-7">
                     <img src="assets/img/inter.png">
                     Viie hooaja jooksul, mis koosneb 62 episoodist, näidatakse lugu Walter White'ist, kooliõpetajast, kellel diagnoositi opereerimatu kopsuvähk. Koos oma endise õpilase Jesse Pinkmaniga hakkab ta oma pere rahalise tuleviku kindlustamiseks tootma ja müüma metamfetamiini.
 
                 </div>
+                </div>
+                </div>
                 <hr>
                 <h2>Halvale teele kohta</h2>
-                <div class="reviews">
+                <div class="reviews"><div class="row">
+                    <div class="col-12">
                     <div class="reviews_name">
                         Tom Saan
                     </div>
@@ -103,13 +121,18 @@
                         Oi, see on suurepärane!
                     </div>
                 </div>
-                <div class="reviews">
+                </div>
+                </div>
+                <div class="reviews"><div class="row">
+                    <div class="col-7">
                     <div class="reviews_name">
                         Edward pöörab ümber
                     </div>
                     <div class="review_text">
                         Parim film
                     </div>
+                </div>  
+                </div>  
                 </div>  
                 <div class="send">
                     <form method="post" action="#" id="review">
@@ -121,15 +144,21 @@
                 </div>  
             </div>
          </div>
-        <div class="footer">
+         <div class="footer">
+    
+            <div class="container">
+                <div class="row">
             <p>
-                <a href="docktype.html">Kodu</a>|
-                <a href="films.html">Filmid</a>|
-                <a href="seria.html">seeria</a>|
-                <a href="rating.html">Filmi reiting</a>|
-                <a href="contact.html">Kontaktid</a>|
+                <div class="col-lg-2"><a href="docktype.html">Kodu</a> |</div>
+                <div class="col-lg-2"><a href="films.html">Filmid</a> |</div>
+                <div class="col-lg-2"><a href="seria.html">seeria</a> |</div>
+                <div class="col-lg-2"><a href="rating.html">Filmi reiting</a> |</div>
+                <div class="col-lg-2"><a href="contact.html">Kontaktid</a></div>
             </p>
         </div>
+        <p>kinopoisk.ru</p>
+        </div>
+        </div>
     </div>
-</body>
-</html>
+    </body>
+    </html>
