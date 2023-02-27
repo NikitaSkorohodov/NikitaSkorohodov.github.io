@@ -1,19 +1,16 @@
 *{
     margin: 0;
-    padding: 0;
-}
-html {
     font-size: 50px;
     text-align: center;
-    background: #27353f;
-    color: #ffff;
+    background: #101212;
+    color: #f0eaea;
 }
 .conteiner{
     min-height: 800px;
     background: url(me.jpg)center/cover no-repeat;
 }
 .myprojects{
-    margin-top: 30px;
+    margin-top: 3px;
 }
 .myprojects a{
     color: orange;
