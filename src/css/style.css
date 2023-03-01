@@ -35,7 +35,7 @@ h2.title{
 .title{
     color: yellow;
     font-family: "Roboto - Black";
-    font-size: 80px;
+    font-size: 41px;
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
@@ -44,7 +44,7 @@ h2.title{
 .simple .title_big{
     color: #ffffff;
     font-family: "Roboto - Black";
-    font-size: 41px;
+    font-size: 80px;
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
