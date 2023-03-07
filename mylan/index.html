@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <style>
+        h1,h2,.promo_text {
+         
+            -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-color:#ffffff;
+        }
+        .zoom {
+          padding: 50px;
+          transition: transform .2s; 
+         
+          margin: 0 auto;
+        }
+        
+        .zoom:hover {
+          transform: scale(1.5);
+        
+        }
+        </style>
+    <section class="promo">
+        <div class="container">
+        <div class="logo">
+            <div class="logo-text">
+             <h1>FASTRAIN</h1>
+            </div>
+        </div>
+        <h1 class="title">быстро привести себя в форму</h1>
+        <div class="simple">
+            <h1 class="title_big">Это просто!</h1>
+            <div class="line"></div>
+        </div>
+        <h2 class="title">Но куда сложнее сделать это правильно!</h2>
+            
+        <div class="zoom"><button class="promo_btn">записатся на курс</button></div>
+            <div class="more">
+                <div class="more_text">Узнать больше об обучении</div>
+                <img src="icons/arrow_down.png" alt="Вниз" class="more_img">
+            </div>
+        </div>
+    </section> 
+    <section class="waiting">
+        <div class="conteiner">
+            <h2 class="waiting_header">Что нас ждет</h2>
+            <div class="waiting_wrapper"></div>
+            <div class="waiting_subheader">Множество услуг</div>
+            <div class="waiting_wrapper">
+                <div class="waiting_item">
+                    <div class="zoom"><img width="250" height="200" src="img/bg/tren.jpg" alt="1" class="waiting_img"></div>
+                    <div class="waiting_descr">Различные тренажоры</div>
+                </div>
+                <div class="waiting_item">
+                    <div class="zoom"><img width="250" height="200" src="img/bg/Gep46.jpg" alt="2" class="waiting_img"></div>
+                    <div class="waiting_descr">Личный тренер</div>
+                </div>
+                <div class="waiting_item">
+                    <div class="zoom"><img width="250" height="200"src="img/bg/diet.jpeg" alt="3" class="waiting_img"></div>
+                    <div class="waiting_descr">Услуги диетолога</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
