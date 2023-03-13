@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    font-size: 50px;
+    text-align: center;
+    color: #fffdfd;
+}
+.conteiner{
+    min-height: 1000px;
+    background: url(me.jpg)center/cover no-repeat;
+}
+.myprojects{
+    margin-top: 3px;
+}
+.myprojects a{
+    color: orange;
+}
+.header{
+    background-color:black;
+    height: 150px;
+    
+}
