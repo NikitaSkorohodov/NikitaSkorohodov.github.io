@@ -5,7 +5,7 @@
     color: #fffdfd;
 }
 .conteiner{
-    min-height: 1000px;
+    min-height: 1900px;
     background: url(me.jpg)center/cover no-repeat;
 }
 .myprojects{
@@ -16,6 +16,6 @@
 }
 .header{
     background-color:black;
-    height: 150px;
+    height: 500px;
     
 }
