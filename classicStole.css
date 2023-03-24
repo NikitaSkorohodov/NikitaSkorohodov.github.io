@@ -6,15 +6,17 @@
 }
 .conteiner{
     min-height: 800px;
-    background: url(me.jpg)center/cover no-repeat;
+    background: url(programming.jpg)center/cover no-repeat;
 }
 .myprojects{
     margin-top: 3px;
 }
 .myprojects a{
-    color: orange;
+    color: rgb(255, 192, 3);
+    font-family: "Atial";
 }
 .header{
     background-color:black;
     height: 1100px;
+    
 }
