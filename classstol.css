@@ -5,8 +5,8 @@
     color: #fffdfd;
 }
 .conteiner{
-    min-height: 1900px;
-    background: url(me.jpg)center/cover no-repeat;
+   min-height: 800px;
+    background: url(programming.jpg)center/cover no-repeat;
 }
 .myprojects{
     margin-top: 3px;
