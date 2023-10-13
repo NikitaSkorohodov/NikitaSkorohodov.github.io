@@ -1,0 +1,15 @@
+{
+  "main.css": "/post-app/static/css/main.669e2e2d.chunk.css",
+  "main.js": "/post-app/static/js/main.79bacb71.chunk.js",
+  "main.js.map": "/post-app/static/js/main.79bacb71.chunk.js.map",
+  "static/css/1.c9775f03.chunk.css": "/post-app/static/css/1.c9775f03.chunk.css",
+  "static/js/1.3e8606e4.chunk.js": "/post-app/static/js/1.3e8606e4.chunk.js",
+  "static/js/1.3e8606e4.chunk.js.map": "/post-app/static/js/1.3e8606e4.chunk.js.map",
+  "runtime~main.js": "/post-app/static/js/runtime~main.6a8e189d.js",
+  "runtime~main.js.map": "/post-app/static/js/runtime~main.6a8e189d.js.map",
+  "static/css/main.669e2e2d.chunk.css.map": "/post-app/static/css/main.669e2e2d.chunk.css.map",
+  "static/css/1.c9775f03.chunk.css.map": "/post-app/static/css/1.c9775f03.chunk.css.map",
+  "index.html": "/post-app/index.html",
+  "precache-manifest.5d6f887c6dee5a5cbeed59ea25b3eab0.js": "/post-app/precache-manifest.5d6f887c6dee5a5cbeed59ea25b3eab0.js",
+  "service-worker.js": "/post-app/service-worker.js"
+}
