@@ -1,1 +1,0 @@
-# NikitaSkorohodov.github.io
