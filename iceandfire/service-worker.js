@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "NikitaSkorohodov.github.io/iceandfire/precache-manifest.a5543d87dc0c56bb9fa9f697584e4716.js"
+  "/iseandfire/precache-manifest.3863f5e7c67c89dc28a59762b6114b15.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("NikitaSkorohodov.github.io/iceandfire/index.html", {
+workbox.routing.registerNavigationRoute("/iseandfire/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
